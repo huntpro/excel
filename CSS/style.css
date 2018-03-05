@@ -261,7 +261,7 @@ html,body{
 
 #page2 > .bg{
 	background: url("../image/p2_bg.jpg") no-repeat center center;
-	background-size: 100%;
+	background-size: 100% 100%;
 }
 #page2 >.p2_circle{
 	position: absolute;
