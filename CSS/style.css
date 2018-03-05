@@ -111,6 +111,26 @@ html,body{
 	background: url("../image/p1bg.jpg") no-repeat center center;
 	background-size: 100%;
 }
+#page1 > .tip{
+	position: absolute;
+    bottom: 5px;
+    right: 30%;
+    font-size: 5em;
+	color: #efff00;
+	animation: opacity_change 1s infinite alternate;
+}
+
+@keyframes opacity_change{
+	0%{
+		opacity: 0.6
+	}
+	50%{
+		opacity: 0.1
+	}
+	100%{
+		opacity: 0.6
+	}
+}
 #page1 > .p1_lantern{
 	position: absolute;
 	top:0;
